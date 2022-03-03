@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.firstclass-sidebar {
+  position: absolute;
+  margin-left: 0px;
+width: 220px;
+height: 100%;
+ background-image: linear-gradient( 163deg , rgb(var(--main)) 0%, rgb(var(--accent)) 70%);
+border-right: 2px solid #ccc;
+border-bottom: 2px solid #ccc;
+border-radius: 10px 0px 0px 10px;
+overflow: hidden;
+display:flex;
+justify-content: flex-end;
+flex-direction: column;
+}
+
+.firstclass-sidebar::after {
+   position: absolute;
+    z-index: 2;
+    background-image: linear-gradient( 163deg , rgb(var(--main)) 50%, rgb(var(--accent)) 100%);
+    opacity: 0.2;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 220px;
+}
+
+.firstclass-season
+{position: absolute;
+  top: 20px;
+  width: inherit;
+  text-align: center;
+  z-index: 1;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  color: #f7f7f7;
+}
+
+.firstclass-season b
+
+{font-family: 'Bebas Neue', cursive;
+  font-size: 30px;}
+
+.firstclass-season i {
+  font-size: 60px;
+ padding: 5px; 
+    text-shadow: 4px 2px 1px rgb(var(--border));
+}
+
+.firstclass-sidebar2{
+  position: relative;
+    display: flex;
+     align-items: flex-end;
+     width: 220px;
+   height: 220px;
+  top: -150px;
+  right: 45px;
+   background: linear-gradient( 0deg , rgb(var(--main)) 0%, rgb(var(--accent)) 80%);
+   -moz-border-radius: 100px; 
+   -webkit-border-radius: 100px; 
+   border-radius: 100px;
+  z-index: 1;
+}
+
+.firstclass-sidebartri h1
+{text-align: center
+  
+}
+
+.firstclass-sidebar a
+{ color: #f7f7f7;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.firstclass-sidebar a:before {
+content: '#';
+color: rgb(var(--border));
+}
+
+.firstclass-sidebar span
+
+{  width: 220px;
+position: absolute;
+top: 125px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+  text-transform: lowercase;
+  z-index: 4;
+  opacity: 0.9;
+}
+
+.firstclass-image
+{
+  position: absolute;
+display: flex;
+     align-items: flex-end;
+height: 300px;
+  width: 300px;
+background-image: var(--charimg);
+   filter: grayscale(100%);
+  z-index: 2;
+}
+
+.firstclass-container {
+  position: relative;
+margin: 20px auto;
+padding: 0px 0px 0px 0px;
+width: 600px;
+min-height: 500px;
+background: #f7f7f7;
+border-radius: 0px 10px 10px 0px;
+border-right: solid 2px #e5e5e5;
+border-bottom: solid 2px #e5e5e5;
+  display: flex;}
+
+.firstclass-body {
+  width: 300px;
+  padding: 50px;
+  margin-left: 220px;
+  font: 400 15px 'Nunito', sans-serif;
+color: #666666;
+line-height: 25px;
+text-align: justify;
+  text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
+  
+}
+
+.firstclass-body b
+{color: rgba(var(--main), 0.8)}
+
+.firstclass-body i
+{
+   font-weight: bold;
+    position: relative;
+    text-decoration: none;
+     background: linear-gradient(130deg, rgba(var(--main), 0.5) 41.07%, rgba(var(--accent), 0.5) 76.05%);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  padding-bottom: 2px;
+  background-repeat: repeat-x;
+}
+
+
+
+.firstclass-notes
+{font-family: 'Nunito', sans-serif;
+font-size: 14px;
+  text-align: center;
+}
+
+
+.firstclass-notes hr
+
+{ height: 1px;
+ background-color: #ccc;
+ border: none;
+  margin: 30px;
+}
+
